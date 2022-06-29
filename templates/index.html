@@ -33,6 +33,27 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/ico" href="{% static 'images/header/favicon.ico' %}">
+
+    <style>
+        .wd_slider_wrapper {
+            float: left;
+            width: 100%;
+            background: url("{% static 'images/header/slider2.jpg' %}");
+            position: relative;
+            background-attachment: fixed;
+            position: relative;
+            background-size: cover;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+        }
+
+        .wd_footer_bottom_wrapper {
+            background-color: #fff !important;
+        }
+        .wd_footer_wrapper {
+            background-color: #0c0c0c !important;
+        }
+    </style>
 </head>
 <body>
 <!-- preloader Start -->
@@ -47,7 +68,7 @@ Purchase:
         <div class="wd_header_wrapper wd_single_index_menu">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="wd_logo">
-                    <img src="{% static 'images/header/logo.png' %}" alt="Logo" title="Logo" class="img-responsive">
+                    <img src="{% static 'images/header/logo2.png' %}" alt="Logo" title="Logo" class="img-responsive">
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -57,19 +78,19 @@ Purchase:
                             <button id="primary-nav-button" type="button">Menu</button>
                             <nav id="primary-nav" class="dropdown cf">
                                 <ul class="dropdown menu">
-                                    <li class='active'><a href="index.html">Home</a></li>
-                                    <li><a href="love_story.html">Love-Story</a></li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="event.html">Events</a></li>
-                                    <li><a href="family.html">Family</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li class='active'><a href="#">Home</a></li>
+                                    <li><a href="{% url 'love_story' %}">Love-Story</a></li>
+                                    <li><a href="{% url 'faq' %}">Faq</a></li>
+                                    <li><a href="{% url 'event' %}">Events</a></li>
+                                    <li><a href="{% url 'family' %}">Family</a></li>
+                                    <li><a href="{% url 'gallery' %}">Gallery</a></li>
                                     <li><a href="#">Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog-Categories</a></li>
-                                            <li><a href="blog_single.html">Blog-Single</a></li>
+                                            <li><a href="{% url 'blog' %}">Blog-Categories</a></li>
+                                            <li><a href="{% url 'blog_single' %}">Blog-Single</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{% url 'contact' %}">Contact</a></li>
                                 </ul>
                             </nav><!-- / #primary-nav -->
                         </header>
@@ -80,8 +101,7 @@ Purchase:
         </div>
         <div class="wd_slider_textinfo">
             <img src="{% static 'images/header/name.png' %}" alt="Slider Image" class="img-responsive">
-            <h3>20 may 2022</h3>
-            <h1>Save The Date</h1>
+            <h3 style="color: #fff !important;">07 Iyul 2022</h3>
             <div class="clearfix"></div>
             <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
         </div>
@@ -101,76 +121,67 @@ Purchase:
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                            <h4>are getting married!</h4>
-                            <h1>Groom and Bride</h1>
+                            <h4>Nikoh oxshomi</h4>
+                            <h1>Kelin va kuyov</h1>
                             <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="wd_about_infobox wd_toppadder20">
                             <div class="wd_about_infobox_img">
-                                <span><img src="{% static 'images/content/line.png' %}" alt="Line" class="img-responsive"></span>
+                                <span><img src="{% static 'images/content/line.png' %}" alt="Line"
+                                           class="img-responsive"></span>
                                 <img src="{% static 'images/content/groom.png' %}" alt="Groom" class="img-responsive">
                             </div>
-                            <h2>Mark Wills</h2>
-                            <p>(S/o Mrs. Jeniffer & Mr. Clark Wills)</p>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            </ul>
+                            <p>(Sayfiddin aka & Gulchexra opa)</p>
+                            <p>o'g'li</p>
+                            <h2>Sanjarjon</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-21 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
                         <div class="wd_about_infobox wd_toppadder20">
                             <div class="wd_about_infobox_img">
-                                <span><img src="{% static 'images/content/line.png' %}" alt="Line" class="img-responsive"></span>
+                                <span><img src="{% static 'images/content/line.png' %}" alt="Line"
+                                           class="img-responsive"></span>
                                 <img src="{% static 'images/content/bride.png' %}" alt="Groom" class="img-responsive">
                             </div>
-                            <h2>Jenny Bellucci</h2>
-                            <p>(D/o Mrs. Merry & Mr. Jhon Bellucci)</p>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            </ul>
+                            <p>(Sayfiddin aka & Gulchexra opa)</p>
+                            <p>qizi</p>
+                            <h2>Dinaraoy</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
                         <div class="wd_about_infobox">
-                            <h1>Invitation</h1>
+                            <h1>Taklifnoma</h1>
                             <div class="wd_about_infobox_date">
-                                <p>We inviting you and your family on</p>
-                                <h3>Saturday</h3>
-                                <h2>20 May 2022</h2>
-                                <p>At St. Thomas's Church, London, U.K.</p>
-                            </div>
-                            <div class="wd_btn wd_single_index_menu_rsvp">
-                                <a href="4">rsvp</a>
+                                <p>Sizni va oilangizni taklif etamiz</p>
+                                <h3>Payshanba</h3>
+                                <h2>07.07.2022</h2>
+                                <p>Qo'shrabot tumani. Diyora bazmgohi</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wd_timer_wrapper">
                             <div class="wd_center_words">
-                                <h4>Don't miss it!</h4>
+                                <h4>nikoh kechagasigacha</h4>
                             </div>
                             <div id="clockdiv">
                                 <div><span class="days"></span>
-                                    <div class="smalltext">Days</div>
+                                    <div class="smalltext">Kun</div>
                                 </div>
                                 <div><span class="hours"></span>
-                                    <div class="smalltext">Hours</div>
+                                    <div class="smalltext">Soat</div>
                                 </div>
                                 <div><span class="minutes"></span>
-                                    <div class="smalltext">Minutes</div>
+                                    <div class="smalltext">Daqiqa</div>
                                 </div>
                                 <div><span class="seconds"></span>
-                                    <div class="smalltext">Seconds</div>
+                                    <div class="smalltext">Soniya</div>
                                 </div>
                             </div>
                             <div class="wd_center_words">
-                                <h4>until we get married!</h4>
+                                <h4>vaqt qoldi</h4>
                             </div>
                         </div>
                     </div>
@@ -202,24 +213,7 @@ Purchase:
                             occasion with us. If you would like to get us something, w’d love that too. you can find our
                             registries here :</p>
                     </div>
-                    <div class="wd_guest_slider">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item"><img src="{% static 'images/content/gue1.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue2.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue3.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue1.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue2.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue3.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                            <div class="item"><img src="{% static 'images/content/gue1.png' %}" alt="Slider" class="img-responsive">
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wd_guest_formbox">
@@ -290,7 +284,8 @@ Purchase:
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
                             vel velit auctor aliquet. Aenean sollicitudin, lorem quis <a href="#">Read More...</a></p>
                         <div class="clearfix"></div>
-                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map" class="img-responsive"></a>
+                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                                         class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
@@ -301,7 +296,8 @@ Purchase:
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
                             vel velit auctor aliquet. Aenean sollicitudin, lorem quis <a href="#">Read More...</a></p>
                         <div class="clearfix"></div>
-                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map" class="img-responsive"></a>
+                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                                         class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
@@ -325,14 +321,14 @@ Purchase:
                             <div class="item">
                                 <div class="wd_testimo_box">
                                     <img src="{% static 'images/content/heart.png' %}" alt="Testimonial">
-                                    <p>“ Better to have loved and lost, than to have never loved ”</p>
+                                    <p>“ Hech qachon sevmagandan ko'ra sevgan va yo'qotgan afzal ”</p>
                                     <h4>~ Akshay H ~</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="wd_testimo_box">
                                     <img src="{% static 'images/content/heart.png' %}" alt="Testimonial">
-                                    <p>“ I look at you and see the rest of my life in front of my eyes. ”</p>
+                                    <p>“  Men senga qarab, ko'z o'ngimda umrimning qolgan qismini ko'raman  ”</p>
                                     <h4>~ Ajay S ~</h4>
                                 </div>
                             </div>
@@ -349,8 +345,8 @@ Purchase:
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>Jenny & Mark</h4>
-                        <h1>memorable photo gallery</h1>
+                        <h4>Sanjar & Dinara</h4>
+                        <h1>Esda qolarli fotogalereya</h1>
                         <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                     </div>
                 </div>
@@ -360,58 +356,29 @@ Purchase:
                             <div class="item">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_1.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_11.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_1_zoom.jpg' %}" title=""><i class="fa fa-expand"
-                                                                                                  aria-hidden="true"></i></a>
+                                            <a href="{% static 'images/content/image_11_zoom.jpg' %}" title=""><i
+                                                    class="fa fa-expand"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_1.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_11.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_1_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_11_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_2.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_22.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_2_zoom.jpg' %}" title=""><i
-                                                    class="fa fa-expand" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_2.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_2_zoom.jpg' %}" title=""><i class="fa fa-expand"
-                                                                                                  aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_3.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_3_zoom.jpg' %}" title=""><i
-                                                    class="fa fa-expand" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_4.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_4_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_22_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
@@ -420,58 +387,29 @@ Purchase:
                             <div class="item">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_3.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_22.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_3_zoom.jpg' %}" title=""><i class="fa fa-expand"
-                                                                                                  aria-hidden="true"></i></a>
+                                            <a href="{% static 'images/content/image_22_zoom.jpg' %}" title=""><i
+                                                    class="fa fa-expand"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_5.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_33.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_5_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_33_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_6.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_44.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_6_zoom.jpg' %}" title=""><i
-                                                    class="fa fa-expand" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_1.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_1_zoom.jpg' %}" title=""><i class="fa fa-expand"
-                                                                                                  aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_1.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_1_zoom.jpg' %}" title=""><i
-                                                    class="fa fa-expand" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_2.jpg' %}" alt="Wedding">
-                                        <div class="ast_glr_overlay">
-                                            <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_2_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_44_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
@@ -480,28 +418,29 @@ Purchase:
                             <div class="item">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_2.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_33.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_2_zoom.jpg' %}" title=""><i class="fa fa-expand"
-                                                                                                  aria-hidden="true"></i></a>
+                                            <a href="{% static 'images/content/image_33_zoom.jpg' %}" title=""><i
+                                                    class="fa fa-expand"
+                                                    aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_3.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_55.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_3_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_55_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                     <div class="wd_gallery_slide">
-                                        <img src="{% static 'images/content/image_small_4.jpg' %}" alt="Wedding">
+                                        <img src="{% static 'images/content/image_small_66.jpg' %}" alt="Wedding">
                                         <div class="ast_glr_overlay">
                                             <p>Making A Love</p>
-                                            <a href="{% static 'images/content/image_small_4_zoom.jpg' %}" title=""><i
+                                            <a href="{% static 'images/content/image_small_66_zoom.jpg' %}" title=""><i
                                                     class="fa fa-expand" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
@@ -598,48 +537,6 @@ Purchase:
         </div>
     </div>
     <!-- Blo Wrapper End -->
-    <!-- Contact Wrapper Start -->
-    <div class="wd_contact_wrapper wd_toppadder90 wd_bottompadder90">
-        <div class="wd_overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>If Any Query</h4>
-                        <h1>Contact Us</h1>
-                        <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                    <div class="wd_contact_form">
-                        <div class="row">
-                            <form>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="full_name" placeholder="Full Name" class="require">
-                                    <input type="text" name="email" placeholder="Email" class="require"
-                                           data-valid="email" data-error="Email should be valid.">
-                                    <input type="text" name="contact_no" placeholder="Phone" class="require">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <textarea rows="7" name="message" placeholder="Message" class="require"></textarea>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="response"></div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="wd_btn">
-                                        <button type="button" class="submitForm" form-type="contact">Send a Message
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact Wrapper End -->
     <!-- Footer Wrapper Start -->
     <div class="wd_footer_wrapper wd_toppadder90 wd_bottompadder100">
         <div class="container">
@@ -690,7 +587,8 @@ Purchase:
 </div>
 <!-- Footer Wrapper End -->
 <!--main js file start-->
-<script data-cfasync="false" src="{% static 'cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script>
+<script data-cfasync="false"
+        src="{% static 'cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/jquery_min.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/owl.carousel.js' %}"></script>
@@ -711,6 +609,351 @@ Purchase:
         });
         wow.init();
     });
+</script>
+
+<script>
+    (function ($) {
+        "use strict";
+
+        // Preloader
+        jQuery(window).on('load', function () {
+            jQuery("#status").fadeOut();
+            jQuery("#preloader").delay(350).fadeOut("slow");
+        });
+
+        // on ready function
+        jQuery(document).ready(function ($) {
+            var $this = $(window);
+
+            // Back to Top js
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').on("click", function () {
+                $("html, body").animate({scrollTop: 0}, 600);
+                return false;
+            });
+
+            // Menu show Hide
+            var counter = 0;
+            $('.wd_menu_btn').on("click", function (e) {
+                if (counter == '0') {
+                    $('.wd_main_menu_wrapper').addClass('wd_main_menu_hide');
+                    $(this).children().removeAttr('class');
+                    $(this).children().attr('class', 'fa fa-close');
+                    counter++;
+                } else {
+                    $('.wd_main_menu_wrapper').removeClass('wd_main_menu_hide');
+                    $(this).children().removeAttr('class');
+                    $(this).children().attr('class', 'fa fa-bars');
+                    counter--;
+                }
+            });
+
+            // Menu js for Position fixed
+            $(window).scroll(function () {
+                var window_top = $(window).scrollTop() + 1;
+                if (window_top > 500) {
+                    $('.wd_header_wrapper').addClass('menu_fixed animated fadeInDown');
+                } else {
+                    $('.wd_header_wrapper').removeClass('menu_fixed animated fadeInDown');
+                }
+            });
+
+            // Guest Slider Js
+            $('.wd_guest_slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 45,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+
+            // Testimonial Slider Js
+            $('.wd_testimonial_slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: false,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+
+            // Family Slider Js
+            $('.wd_family_slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+
+            // Gallery Slider js
+            $('.wd_gallery_slider .owl-carousel').owlCarousel({
+                animateOut: 'fadeOut',
+                loop: true,
+                margin: 10,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+
+
+            // Family Slider Js
+            $('.wd_blog_indx_img_wrapper .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+
+            // Magnific Popup js
+            $('.popup-gallery').magnificPopup({
+                delegate: '.ast_glr_overlay a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title') + '<small></small>';
+                    }
+                }
+            });
+
+
+            //Single page scroll js
+            $('.wd_single_index_menu_down ul li a').on('click', function (e) {
+                $('.wd_single_index_menu_down ul li').removeClass('active');
+                $(this).parent().addClass('active');
+                var target = $('[section-scroll=' + $(this).attr('href') + ']');
+                e.preventDefault();
+                var targetHeight = target.offset().top - parseInt('83', 10);
+                $('html, body').animate({
+                    scrollTop: targetHeight
+                }, 1000);
+            });
+
+            $(window).scroll(function () {
+                var windscroll = $(window).scrollTop();
+                var target = $('.wd_single_index_menu_down ul li');
+                if (windscroll >= 0) {
+                    $('[section-scroll]').each(function (i) {
+                        if ($(this).position().top <= windscroll + 83) {
+                            target.removeClass('active');
+                            target.eq(i).addClass('active');
+                        }
+                    });
+                } else {
+                    target.removeClass('active');
+                    $('.wd_single_index_menu_down ul li:first').addClass('active');
+                }
+
+            });
+
+
+            //Single page scroll js
+            $('.wd_single_index_menu_rsvp a').on('click', function (e) {
+                $('.wd_single_index_menu_rsvp a').removeClass('active');
+                $(this).parent().addClass('active');
+                var target = $('[section-scroll=' + $(this).attr('href') + ']');
+                e.preventDefault();
+                var targetHeight = target.offset().top - parseInt('83', 10);
+                $('html, body').animate({
+                    scrollTop: targetHeight
+                }, 1000);
+            });
+
+            $(window).scroll(function () {
+                var windscroll = $(window).scrollTop();
+                var target = $('.wd_single_index_menu_rsvp a');
+                if (windscroll >= 0) {
+                    $('[section-scroll]').each(function (i) {
+                        if ($(this).position().top <= windscroll + 83) {
+                            target.removeClass('active');
+                            target.eq(i).addClass('active');
+                        }
+                    });
+                } else {
+                    target.removeClass('active');
+                    $('.wd_single_index_menu_rsvp a').addClass('active');
+                }
+
+            });
+
+
+            // CountDown Js
+            var deadline = 'July 7 2022 17:59:00 GMT-0400';
+
+            function time_remaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                return {'total': t, 'days': days, 'hours': hours, 'minutes': minutes, 'seconds': seconds};
+            }
+
+            function run_clock(id, endtime) {
+                var clock = document.getElementById(id);
+
+                // get spans where our clock numbers are held
+                var days_span = clock.querySelector('.days');
+                var hours_span = clock.querySelector('.hours');
+                var minutes_span = clock.querySelector('.minutes');
+                var seconds_span = clock.querySelector('.seconds');
+
+                function update_clock() {
+                    var t = time_remaining(endtime);
+
+                    // update the numbers in each part of the clock
+                    days_span.innerHTML = t.days;
+                    hours_span.innerHTML = ('0' + t.hours).slice(-2);
+                    minutes_span.innerHTML = ('0' + t.minutes).slice(-2);
+                    seconds_span.innerHTML = ('0' + t.seconds).slice(-2);
+
+                    if (t.total <= 0) {
+                        clearInterval(timeinterval);
+                    }
+                }
+
+                update_clock();
+                var timeinterval = setInterval(update_clock, 1000);
+            }
+
+            run_clock('clockdiv', deadline);
+
+
+            // Contact Form Submition
+            function checkRequire(formId, targetResp) {
+                targetResp.html('');
+                var email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
+                var url = /(http|ftp|https):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&amp;:\/~+#-]*[\w@?^=%&amp;\/~+#-])?/;
+                var image = /\.(jpe?g|gif|png|PNG|JPE?G)$/;
+                var mobile = /^[\s()+-]*([0-9][\s()+-]*){6,20}$/;
+                var facebook = /^(https?:\/\/)?(www\.)?facebook.com\/[a-zA-Z0-9(\.\?)?]/;
+                var twitter = /^(https?:\/\/)?(www\.)?twitter.com\/[a-zA-Z0-9(\.\?)?]/;
+                var google_plus = /^(https?:\/\/)?(www\.)?plus.google.com\/[a-zA-Z0-9(\.\?)?]/;
+                var check = 0;
+                $('#er_msg').remove();
+                var target = (typeof formId == 'object') ? $(formId) : $('#' + formId);
+                target.find('input , textarea , select').each(function () {
+                    if ($(this).hasClass('require')) {
+                        if ($(this).val().trim() == '') {
+                            check = 1;
+                            $(this).focus();
+                            targetResp.html('You missed out some fields.');
+                            $(this).addClass('error');
+                            return false;
+                        } else {
+                            $(this).removeClass('error');
+                        }
+                    }
+                    if ($(this).val().trim() != '') {
+                        var valid = $(this).attr('data-valid');
+                        if (typeof valid != 'undefined') {
+                            if (!eval(valid).test($(this).val().trim())) {
+                                $(this).addClass('error');
+                                $(this).focus();
+                                check = 1;
+                                targetResp.html($(this).attr('data-error'));
+                                return false;
+                            } else {
+                                $(this).removeClass('error');
+                            }
+                        }
+                    }
+                });
+                return check;
+            }
+
+            $(".submitForm").on("click", function () {
+                var _this = $(this);
+                var targetForm = _this.closest('form');
+                var errroTarget = targetForm.find('.response');
+                var check = checkRequire(targetForm, errroTarget);
+                if (check == 0) {
+                    var formDetail = new FormData(targetForm[0]);
+                    formDetail.append('form_type', _this.attr('form-type'));
+                    $.ajax({
+                        method: 'post',
+                        url: 'ajax.php',
+                        data: formDetail,
+                        cache: false,
+                        contentType: false,
+                        processData: false
+                    }).done(function (resp) {
+                        if (resp == 1) {
+                            targetForm.find('input').val('');
+                            targetForm.find('textarea').val('');
+                            errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
+                        } else {
+                            errroTarget.html('<p style="color:red;">Something went wrong please try again latter.</p>');
+                        }
+                    });
+                }
+            });
+
+
+        });
+    })();
 </script>
 <!--main js file end-->
 </body>

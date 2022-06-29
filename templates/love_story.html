@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <!-- 
 Template Name: Wedding
 Version: 1.0.0
@@ -20,21 +21,21 @@ Purchase:
 	<meta name="author"  content=""/>
 	<meta name="MobileOptimized" content="320" />
 	<!--srart theme style -->
-	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"/>
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/owl.theme.default.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/fonts.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
 	<!-- favicon links -->
-	<link rel="shortcut icon" type="image/ico" href="images/header/favicon.ico" />
+	<link rel="shortcut icon" type="image/ico" href="{% static 'images/header/favicon.ico' %}" />
 </head>
 <body>
 <!-- preloader Start -->
 <div id="preloader">
-	<div id="status"><img src="images/header/preloader.gif" id="preloader_image" alt="loader">
+	<div id="status"><img src="{% static 'images/header/preloader.gif' %}" id="preloader_image" alt="loader">
 	</div>
 </div>
 <!-- Header Wrapper Start -->
@@ -42,7 +43,7 @@ Purchase:
 	<div class="wd_header_wrapper wd_single_index_menu">
 		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 			<div class="wd_logo">
-				<img src="images/header/logo.png" alt="Logo" title="Logo" class="img-responsive">
+				<img src="{% static 'images/header/logo.png' %}" alt="Logo" title="Logo" class="img-responsive">
 			</div>
 		</div>
 		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -52,19 +53,19 @@ Purchase:
 				  <button id="primary-nav-button" type="button">Menu</button>
 				  <nav id="primary-nav" class="dropdown cf">
 					<ul class="dropdown menu">
-					  <li><a href="index.html">Home</a></li>
-					  <li class='active'><a href="love_story.html">Love-Story</a></li>
-					  <li><a href="faq.html">Faq</a></li>
-					  <li><a href="event.html">Events</a></li>
-					  <li><a href="family.html">Family</a></li>
-					  <li><a href="gallery.html">Gallery</a></li>
+					  <li><a href="{% url 'index' %}">Home</a></li>
+					  <li class='active'><a href="{% url 'love_story' %}">Love-Story</a></li>
+					  <li><a href="{% url 'faq' %}">Faq</a></li>
+					  <li><a href="{% url 'event' %}">Events</a></li>
+					  <li><a href="{% url 'family' %}">Family</a></li>
+					  <li><a href="{% url 'gallery' %}">Gallery</a></li>
 					  <li><a href="#">Blog</a>
 						<ul class="sub-menu">
-						  <li><a href="blog.html">Blog-Categories</a></li>
-						  <li><a href="blog_single.html">Blog-Single</a></li>
+						  <li><a href="{% url 'blog' %}">Blog-Categories</a></li>
+						  <li><a href="{% url 'blog_single' %}">Blog-Single</a></li>
 						</ul>
 					  </li>
-					  <li><a href="contact.html">Contact</a></li>
+					  <li><a href="{% url 'contact' %}">Contact</a></li>
 					</ul>
 				  </nav><!-- / #primary-nav -->
 				</header>
@@ -97,7 +98,7 @@ Purchase:
 				<div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
 					<h4>Jenny & Mark</h4>
 					<h1>Our true love story</h1>
-					<img src="images/content/heading.png" alt="Heading" class="img-responsive">
+					<img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
 				</div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -106,7 +107,7 @@ Purchase:
 					<div class="wd_story_covers_box_left">
 						<div class="wd_story_dot"><span></span></div>
 						<div class="wd_story_covers_box_img">
-							<img src="images/content/story_1.jpg" alt="Story">
+							<img src="{% static 'images/content/story_1.jpg' %}" alt="Story">
 						</div>
 						<div class="wd_story_covers_box_datails">
 							<span>20 May 2010</span>
@@ -124,13 +125,13 @@ Purchase:
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor...</p>
 						</div>
 						<div class="wd_story_covers_box_img">
-							<img src="images/content/story_2.jpg" alt="Story">
+							<img src="{% static 'images/content/story_2.jpg' %}" alt="Story">
 						</div>
 					</div>
 					<div class="wd_story_covers_box_left">
 						<div class="wd_story_dot"><span></span></div>
 						<div class="wd_story_covers_box_img">
-							<img src="images/content/story_3.jpg" alt="Story">
+							<img src="{% static 'images/content/story_3.jpg' %}" alt="Story">
 						</div>
 						<div class="wd_story_covers_box_datails">
 							<span>20 May 2010</span>
@@ -148,13 +149,13 @@ Purchase:
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor...</p>
 						</div>
 						<div class="wd_story_covers_box_img">
-							<img src="images/content/story_4.jpg" alt="Story">
+							<img src="{% static 'images/content/story_4.jpg' %}" alt="Story">
 						</div>
 					</div>
 					<div class="wd_story_covers_box_left">
 						<div class="wd_story_dot"><span></span></div>
 						<div class="wd_story_covers_box_img">
-							<img src="images/content/story_5.jpg" alt="Story">
+							<img src="{% static 'images/content/story_5.jpg' %}" alt="Story">
 						</div>
 						<div class="wd_story_covers_box_datails">
 							<span>20 May 2010</span>
@@ -172,22 +173,22 @@ Purchase:
 	<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
 	<div class="col-md-12">
 		<div class="wd_footer_section">
-			<img src="images/header/flogo.png" alt="Logo" class="img-responsive">
+			<img src="{% static 'images/header/flogo.png' %}" alt="Logo" class="img-responsive">
 			<p>@ Copyright 2022 All Rights Reserved. By Webstrot</p>
 		</div>
 	</div>
 </div>
 <!-- Footer Wrapper End -->
 <!--main js file start--> 
-<script type="text/javascript" src="js/jquery_min.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/modernizr.js"></script>
-<script type="text/javascript" src="js/smoothscroll.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-<script type="text/javascript" src="js/wow.js"></script>
-<script type="text/javascript" src="js/navigation.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="{% static 'js/jquery_min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/owl.carousel.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/modernizr.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/smoothscroll.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/wow.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/navigation.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/custom.js' %}"></script>
 <script>
 $(window).on("load", function() {
 		var wow = new WOW({
