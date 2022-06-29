@@ -1,0 +1,636 @@
+Uri: https://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3SYE0-AqJ3nfInTTiDXDjU4.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\greatvibes\v4\6q1c0ofG6NKsEhAc2eh-3SYE0-AqJ3nfInTTiDXDjU4.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3Y4P5ICox8Kq3LLUNMylGO4.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\greatvibes\v4\6q1c0ofG6NKsEhAc2eh-3Y4P5ICox8Kq3LLUNMylGO4.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/1wR3aOJ69QwyZ9B-WDmIqRJtnKITppOI_IvcXXDNrsc.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\1wR3aOJ69QwyZ9B-WDmIqRJtnKITppOI_IvcXXDNrsc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/47861CGpECw31aszKPt4uhJtnKITppOI_IvcXXDNrsc.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\47861CGpECw31aszKPt4uhJtnKITppOI_IvcXXDNrsc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\4vqKRIwnQQGUQQh-PnvdMA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/66KG1MDzU5Zo36weZ_yx-RJtnKITppOI_IvcXXDNrsc.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\66KG1MDzU5Zo36weZ_yx-RJtnKITppOI_IvcXXDNrsc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/7zlcDWwHlSl_w5azaU2j3PesZW2xOQ-xsNqO47m55DA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\7zlcDWwHlSl_w5azaU2j3PesZW2xOQ-xsNqO47m55DA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/BYKAuswRIqh69412sen31PY6323mHUZFJMgTvxaG2iE.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\BYKAuswRIqh69412sen31PY6323mHUZFJMgTvxaG2iE.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/gBru_9ER68jWAtTarLXr3_Y6323mHUZFJMgTvxaG2iE.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\gBru_9ER68jWAtTarLXr3_Y6323mHUZFJMgTvxaG2iE.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/GjWw5_K_Fhq8yNDkNV_ETRJtnKITppOI_IvcXXDNrsc.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\GjWw5_K_Fhq8yNDkNV_ETRJtnKITppOI_IvcXXDNrsc.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/GsNxiN0oIzsS201cnUag6w.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\GsNxiN0oIzsS201cnUag6w.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/HeAP0mHtiTx5JKQlc80wp_esZW2xOQ-xsNqO47m55DA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\HeAP0mHtiTx5JKQlc80wp_esZW2xOQ-xsNqO47m55DA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/I0dEfRgGNE90_hXZq7bjyw.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\I0dEfRgGNE90_hXZq7bjyw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/ie2Ux11tIT0C_JTksRPlKA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\ie2Ux11tIT0C_JTksRPlKA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/nRWuMjV9d7Qv7608EovOgfesZW2xOQ-xsNqO47m55DA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\nRWuMjV9d7Qv7608EovOgfesZW2xOQ-xsNqO47m55DA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/OVZcBeQFqX1w7YhsLFAXp_esZW2xOQ-xsNqO47m55DA.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\OVZcBeQFqX1w7YhsLFAXp_esZW2xOQ-xsNqO47m55DA.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\P18Nsu9EiYldSvHIj_0e5w.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/sNXgpEOJ2Tz7WJSozSN6D_Y6323mHUZFJMgTvxaG2iE.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\sNXgpEOJ2Tz7WJSozSN6D_Y6323mHUZFJMgTvxaG2iE.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/Ukd0sOIY4JZgcODPuj2G3Q.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\Ukd0sOIY4JZgcODPuj2G3Q.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/VZ-5ejr2fpt5l1RKkVxPr_Y6323mHUZFJMgTvxaG2iE.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\VZ-5ejr2fpt5l1RKkVxPr_Y6323mHUZFJMgTvxaG2iE.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.gstatic.com/s/lora/v10/_RSiB1sBuflZfa9fxV8cOg.woff2
+File Name: E:\wedding\src\www.webstrot.com\s\lora\v10\_RSiB1sBuflZfa9fxV8cOg.woff2
+Content Type: font/woff2
+
+Uri: https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdG8C6ItElq5ipuFv6O9AE48wyZm_vqU&callback=initMap
+File Name: E:\wedding\src\www.webstrot.com\maps\api\js
+Content Type: text/javascript
+
+Uri: https://www.webstrot.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+File Name: E:\wedding\src\www.webstrot.com\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js
+Content Type: application/javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/blog.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\blog.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/blog_single.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\blog_single.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/contact.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\contact.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/animate.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\animate.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/bootstrap.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\bootstrap.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/font-awesome.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\font-awesome.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/fonts.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\fonts.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/magnific-popup.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/owl.carousel.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\owl.carousel.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/owl.theme.default.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\owl.theme.default.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/css/style.css
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\css\style.css
+Content Type: text/css
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/event.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\event.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/family.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\family.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/faq.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\faq.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.eot?
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.eot
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.eot?
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.svg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.ttf
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.woff
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular.woff
+Content Type: application/font-woff
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/fonts/glyphicons-halflings-regular.woff2
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/gallery.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\gallery.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/about_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\about_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/admin_img.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\admin_img.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/blog1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\blog1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/blog2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\blog2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/blog3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\blog3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/blog4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\blog4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/bs1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\bs1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/bs2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\bs2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/comment_img1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\comment_img1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/comment_img2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\comment_img2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/comment_img3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\comment_img3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/comment_img4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\comment_img4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in5.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/in6.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\in6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/n1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\n1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/n2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\n2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/n3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\n3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/quote.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\quote.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog/twitter.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog\twitter.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/blog_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\blog_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/bride.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\bride.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/contact_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\contact_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/dot_bg.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\dot_bg.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/event_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\event_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/event_img.gif
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\event_img.gif
+Content Type: image/gif
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/family_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\family_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm5.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm6.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm7.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm7.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/fm8.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\fm8.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/footer_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\footer_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl6.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl7.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl7.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gallery/gl8.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gallery\gl8.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/groom.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\groom.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gue1.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gue1.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gue2.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gue2.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/gue3.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\gue3.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/guest_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\guest_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/heading.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\heading.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/heart.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\heart.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/heart_pink.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\heart_pink.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_1_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_1_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_2_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_2_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_3_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_3_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_1_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_1_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_2_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_2_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_3_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_3_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_4_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_4_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_5.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_5_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_5_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_6.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/image_small_6_zoom.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\image_small_6_zoom.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/line.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\line.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/line2.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\line2.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/map.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\map.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/play.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\play.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/story_1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\story_1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/story_2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\story_2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/story_3.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\story_3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/story_4.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\story_4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/story_5.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\story_5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/tab1.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\tab1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/content/tab2.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\content\tab2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/favicon.ico
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/flogo.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\flogo.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/logo.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\logo.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/name.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\name.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/preloader.gif
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\preloader.gif
+Content Type: image/gif
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/slider.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\slider.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/sn1.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\sn1.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/sn2.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\sn2.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/sn3.png
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\sn3.png
+Content Type: image/png
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/images/header/title_bg.jpg
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\images\header\title_bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/index.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\index.html
+Content Type: text/html
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/bootstrap.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\bootstrap.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/custom.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\custom.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/jquery.inview.min.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\jquery.inview.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/jquery.magnific-popup.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\jquery.magnific-popup.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/jquery.shuffle.min.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\jquery.shuffle.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/jquery_min.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\jquery_min.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/modernizr.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\modernizr.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/navigation.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\navigation.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/owl.carousel.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\owl.carousel.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/smoothscroll.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\smoothscroll.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/js/wow.js
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\js\wow.js
+Content Type: application/x-javascript
+
+Uri: https://www.webstrot.com/html/wedding/multi_page/love_story.html
+File Name: E:\wedding\src\www.webstrot.com\html\wedding\multi_page\love_story.html
+Content Type: text/html
+
