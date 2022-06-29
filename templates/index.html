@@ -16,7 +16,7 @@ Purchase:
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Wedding Responsive HTML Template</title>
+    <title>Sanjar & Dinara</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="Wedding">
     <meta name="keywords" content="Wedding, Marriage, Event, party, function">
@@ -47,11 +47,205 @@ Purchase:
             background-repeat: no-repeat;
         }
 
-        .wd_footer_bottom_wrapper {
-            background-color: #fff !important;
+    </style>
+
+    <style>
+        /* latin-ext */
+        @font-face {
+            font-family: 'Great Vibes';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Great Vibes'), local('GreatVibes-Regular'), url('{% static "s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3SYE0-AqJ3nfInTTiDXDjU4.woff2" %}') format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
         }
-        .wd_footer_wrapper {
-            background-color: #0c0c0c !important;
+
+        /* latin */
+        @font-face {
+            font-family: 'Great Vibes';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Great Vibes'), local('GreatVibes-Regular'), url('{% static "s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3Y4P5ICox8Kq3LLUNMylGO4.woff2" %}') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lora Regular'), local('Lora-Regular'), url('{% static "s/lora/v10/Ukd0sOIY4JZgcODPuj2G3Q.woff2" %}') format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lora Regular'), local('Lora-Regular'), url('{% static "s/lora/v10/GsNxiN0oIzsS201cnUag6w.woff2" %}') format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lora Regular'), local('Lora-Regular'), url('{% static "s/lora/v10/ie2Ux11tIT0C_JTksRPlKA.woff2" %}') format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lora Regular'), local('Lora-Regular'), url('{% static "s/lora/v10/I0dEfRgGNE90_hXZq7bjyw.woff2" %}') format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Lora Regular'), local('Lora-Regular'), url('{% static "s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2" %}') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lora Bold'), local('Lora-Bold'), url('{% static "s/lora/v10/sNXgpEOJ2Tz7WJSozSN6D_Y6323mHUZFJMgTvxaG2iE.woff2" %}') format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lora Bold'), local('Lora-Bold'), url('{% static "s/lora/v10/VZ-5ejr2fpt5l1RKkVxPr_Y6323mHUZFJMgTvxaG2iE.woff2" %}') format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lora Bold'), local('Lora-Bold'), url('{% static "s/lora/v10/gBru_9ER68jWAtTarLXr3_Y6323mHUZFJMgTvxaG2iE.woff2" %}') format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lora Bold'), local('Lora-Bold'), url('{% static "s/lora/v10/BYKAuswRIqh69412sen31PY6323mHUZFJMgTvxaG2iE.woff2" %}') format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Lora Bold'), local('Lora-Bold'), url('{% static "s/lora/v10/P18Nsu9EiYldSvHIj_0e5w.woff2" %}') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lora Italic'), local('Lora-Italic'), url('{% static "s/lora/v10/HeAP0mHtiTx5JKQlc80wp_esZW2xOQ-xsNqO47m55DA.woff2" %}') format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lora Italic'), local('Lora-Italic'), url('{% static "s/lora/v10/OVZcBeQFqX1w7YhsLFAXp_esZW2xOQ-xsNqO47m55DA.woff2" %}') format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lora Italic'), local('Lora-Italic'), url('{% static "s/lora/v10/7zlcDWwHlSl_w5azaU2j3PesZW2xOQ-xsNqO47m55DA.woff2" %}') format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lora Italic'), local('Lora-Italic'), url('{% static "s/lora/v10/nRWuMjV9d7Qv7608EovOgfesZW2xOQ-xsNqO47m55DA.woff2" %}') format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Lora Italic'), local('Lora-Italic'), url('{% static "s/lora/v10/_RSiB1sBuflZfa9fxV8cOg.woff2" %}') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url('{% static "s/lora/v10/47861CGpECw31aszKPt4uhJtnKITppOI_IvcXXDNrsc.woff2" %}') format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url('{% static "s/lora/v10/66KG1MDzU5Zo36weZ_yx-RJtnKITppOI_IvcXXDNrsc.woff2" %}') format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url('{% static "s/lora/v10/GjWw5_K_Fhq8yNDkNV_ETRJtnKITppOI_IvcXXDNrsc.woff2" %}') format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url('{% static "s/lora/v10/1wR3aOJ69QwyZ9B-WDmIqRJtnKITppOI_IvcXXDNrsc.woff2" %}') format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url('{% static "s/lora/v10/_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2" %}') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
         }
     </style>
 </head>
@@ -68,7 +262,7 @@ Purchase:
         <div class="wd_header_wrapper wd_single_index_menu">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="wd_logo">
-                    <img src="{% static 'images/header/logo2.png' %}" alt="Logo" title="Logo" class="img-responsive">
+                    <img src="{% static 'images/header/logo3.png' %}" alt="Logo" title="Logo" class="img-responsive">
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -131,7 +325,7 @@ Purchase:
                             <div class="wd_about_infobox_img">
                                 <span><img src="{% static 'images/content/line.png' %}" alt="Line"
                                            class="img-responsive"></span>
-                                <img src="{% static 'images/content/groom.png' %}" alt="Groom" class="img-responsive">
+                                <img width="270px" height="270px" src="{% static 'images/content/img.png' %}" alt="Groom" class="img-responsive">
                             </div>
                             <p>(Sayfiddin aka & Gulchexra opa)</p>
                             <p>o'g'li</p>
@@ -271,18 +465,18 @@ Purchase:
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>Ceremony & party</h4>
-                        <h1>THE WEDDING EVENT</h1>
+                        <h4>Nahor & Oqshom</h4>
+                        <h1>To'y marosimi</h1>
                         <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="wd_event_infobox">
-                        <h2>Main Ceremony</h2>
+                        <h2>Nahor</h2>
                         <h1>7:30 pm</h1>
-                        <span>St. Thomas's Church, London, U.K.</span>
+                        <span>Qo'shrabod tumani. Diyora bazmgohi</span>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
-                            vel velit auctor aliquet. Aenean sollicitudin, lorem quis <a href="#">Read More...</a></p>
+                            vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
                         <div class="clearfix"></div>
                         <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map"
                                          class="img-responsive"></a>
@@ -290,22 +484,18 @@ Purchase:
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
                     <div class="wd_event_infobox">
-                        <h2>Wedding Party</h2>
-                        <h1>7:30 pm</h1>
-                        <span>St. Thomas's Church, London, U.K.</span>
+                        <h2>Nikoh oqshomi</h2>
+                        <h1>18:00 pm</h1>
+                        <span>Qo'shrabod tumani. Diyora bazmgohi</span>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
-                            vel velit auctor aliquet. Aenean sollicitudin, lorem quis <a href="#">Read More...</a></p>
+                            vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
                         <div class="clearfix"></div>
-                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map"
-                                         class="img-responsive"></a>
+                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map" class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
                     <div class="wd_event_infobox">
                         <img src="{% static 'images/content/event_img.gif' %}" alt="Event Image">
-                        <div class="wd_btn wd_single_index_menu_rsvp">
-                            <a href="4">rsvp</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -328,7 +518,7 @@ Purchase:
                             <div class="item">
                                 <div class="wd_testimo_box">
                                     <img src="{% static 'images/content/heart.png' %}" alt="Testimonial">
-                                    <p>“  Men senga qarab, ko'z o'ngimda umrimning qolgan qismini ko'raman  ”</p>
+                                    <p>“ Men senga qarab, ko'z o'ngimda umrimning qolgan qismini ko'raman ”</p>
                                     <h4>~ Ajay S ~</h4>
                                 </div>
                             </div>
@@ -459,77 +649,61 @@ Purchase:
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>Wedding Journal</h4>
-                        <h1>from our blog</h1>
+                        <h1>Love Story</h1>
                         <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                     </div>
                 </div>
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_img">
-                            <img src="{% static 'images/content/blog1.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_22.jpg' %}" alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_info">
-                            <h3>Planning Honeymoon Trip</h3>
+                            <h3>Tanishuv</h3>
                             <ul>
                                 <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
-                                <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 240 View</a></li>
-                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
                                 sem nibh id elit..</p>
-                            <div class="wd_btn">
-                                <a href="#">read more</a>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 col-sm-push-6">
                         <div class="wd_blog_img">
-                            <img src="{% static 'images/content/blog2.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_33.jpg' %}" alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-pull-6 col-md-pull-6 col-sm-pull-6">
                         <div class="wd_blog_info">
-                            <h3>Surprises For Guests</h3>
+                            <h3>Birinchi uchrashuv</h3>
                             <ul>
                                 <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
-                                <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 240 View</a></li>
-                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
                                 sem nibh id elit..</p>
-                            <div class="wd_btn">
-                                <a href="#">read more</a>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_img">
-                            <img src="{% static 'images/content/blog3.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_44.jpg' %}" alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_info">
-                            <h3>Bachelor Party!</h3>
+                            <h3>Sevgi tarixi</h3>
                             <ul>
                                 <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
-                                <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 240 View</a></li>
-                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
                                 sem nibh id elit..</p>
-                            <div class="wd_btn">
-                                <a href="#">read more</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -546,8 +720,8 @@ Purchase:
                         <div class="wd_footicon">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
-                        <h2>Home</h2>
-                        <p>110, B Kalani Bagh, Dewas M.P. INDIA #455001</p>
+                        <h2>Manzil</h2>
+                        <p>Qo'shrabod tumani. Buloqboshi maxallasi</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -555,7 +729,7 @@ Purchase:
                         <div class="wd_footicon">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                         </div>
-                        <h2>Phone</h2>
+                        <h2>Tel</h2>
                         <p>+ 91 12345 67890 <br> +91 12345 78945</p>
                     </div>
                 </div>
@@ -564,10 +738,10 @@ Purchase:
                         <div class="wd_footicon">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </div>
-                        <h2>Email Us</h2>
-                        <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                        <h2>Email</h2>
+                        <p><a href="/static/cdn-cgi/l/email-protection" class="__cf_email__"
                               data-cfemail="a3d4c6c7c7cacdc4e3c6dbc2ced3cfc68dc0ccce">[email&#160;protected]</a> <br><a
-                                href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                href="/static/cdn-cgi/l/email-protection" class="__cf_email__"
                                 data-cfemail="204556454e54604558414d504c450e434f4d">[email&#160;protected]</a></p>
                     </div>
                 </div>
@@ -579,8 +753,8 @@ Purchase:
                 class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
         <div class="col-md-12">
             <div class="wd_footer_section">
-                <img src="{% static 'images/header/flogo.png' %}" alt="Logo" class="img-responsive">
-                <p>@ Copyright 2022 All Rights Reserved. By Webstrot</p>
+                <img src="{% static 'images/header/flogo1.png' %}" alt="Logo" class="img-responsive">
+                <p>@ Zbesstudio</p>
             </div>
         </div>
     </div>
