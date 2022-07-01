@@ -35,6 +35,7 @@ Purchase:
     <link rel="shortcut icon" type="image/ico" href="{% static 'images/header/favicon.ico' %}">
 
     <style>
+        
         .wd_slider_wrapper {
             float: left;
             width: 100%;
@@ -43,7 +44,7 @@ Purchase:
             background-attachment: fixed;
             position: relative;
             background-size: cover;
-            background-position: center top -200px;
+            background-position: center top -123px;
             background-repeat: no-repeat;
         }
 
@@ -277,9 +278,11 @@ Purchase:
     <style>
         .orr {
             padding-bottom: 0;
+            padding-top: 40px;
         }
         .items {
             padding: 50px 0;
+            padding-top: 0;
         }
         .items__container {
             max-width: 100%;
@@ -305,8 +308,15 @@ Purchase:
         }
 
         @media screen and (max-width: 500px) {
+            .mob {
+                max-width: 50%;
+            }            
+
             .wd_slider_wrapper {
                 background-position: left -278px top -165px;
+            }
+            .imgg {
+                display: none;
             }
         }
 
@@ -360,7 +370,7 @@ Purchase:
             </div>
         </div>
         <div class="wd_slider_textinfo">
-            <img src="{% static 'images/header/name.png' %}" alt="Slider Image" class="img-responsive">
+            <img src="{% static 'images/header/name.png' %}" alt="Slider Image" class="img-responsive mob">
             <h3 style="color: #fff !important;">07.07.2022</h3>
             <div class="clearfix"></div>
             <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
@@ -447,73 +457,7 @@ Purchase:
     </div>
     <!-- About Wrapper End -->
 
-    <!-- Event Wrapper Start -->
-    <div class="wd_event_wrapper wd_toppadder90 wd_bottompadder50">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>Nahor & Oqshom</h4>
-                        <h1>To'y marosimi</h1>
-                        <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="wd_event_infobox">
-                        <h2>Nahor</h2>
-                        <h1>7:00</h1>
-                        <span>Qo'shrabod tumani. Zarkent shaharchasi</span>
-                        <div class="clearfix"></div>
-                        <a href="https://maps.app.goo.gl/MV9GEgL1v3viMvTH7"><img src="{% static 'images/content/map.png' %}" alt="Map"
-                                         class="img-responsive"></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
-                    <div class="wd_event_infobox">
-                        <h2>Nikoh oqshomi</h2>
-                        <h1>18:00</h1>
-                        <span>Qo'shrabod tumani. Diyora bazmgohi</span>
-                        <div class="clearfix"></div>
-                        <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=66.655725%2C40.240403&whatshere%5Bzoom%5D=17.73376&ll=66.65572545804807%2C40.2404027223886&z=17.73376"><img src="{% static 'images/content/map.png' %}" alt="Map"
-                                         class="img-responsive"></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
-                    <div class="wd_event_infobox">
-                        <img src="{% static 'images/content/event_img.gif' %}" alt="Event Image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Event Wrapper End -->
-    <div class="wd_testimonial_wrapper wd_toppadder70 wd_bottompadder70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wd_testimonial_slider">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="wd_testimo_box">
-                                    <img src="{% static 'images/content/heart.png' %}" alt="Testimonial">
-                                    <p>“ Hech qachon sevmagandan ko'ra sevgan va yo'qotgan afzal ”</p>
-                                    <h4>~ Akshay H ~</h4>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="wd_testimo_box">
-                                    <img src="{% static 'images/content/heart.png' %}" alt="Testimonial">
-                                    <p>“ Men senga qarab, ko'z o'ngimda umrimning qolgan qismini ko'raman ”</p>
-                                    <h4>~ Ajay S ~</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial Wrapper End -->
+  
     <!-- Gallery Wrapper Start -->
     <div class="wd_gallery_wrapper wd_toppadder90 wd_bottompadder90">
         <div class="container">
@@ -628,6 +572,45 @@ Purchase:
         </div>
     </div>
     <!-- Gallery Wrapper End -->
+      <!-- Event Wrapper Start -->
+      <div class="wd_event_wrapper wd_toppadder90 wd_bottompadder50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
+                        <h4>Nahor & Oqshom</h4>
+                        <h1>To'y marosimi</h1>
+                        <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="wd_event_infobox">
+                        <h2>Nahor</h2>
+                        <h1>7:00</h1>
+                        <span>Qo'shrabod tumani. Zarkent shaharchasi</span>
+                        <div class="clearfix"></div>
+                        <a href="https://maps.app.goo.gl/MV9GEgL1v3viMvTH7"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                                         class="img-responsive"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
+                    <div class="wd_event_infobox">
+                        <h2>Nikoh oqshomi</h2>
+                        <h1>18:00</h1>
+                        <span>Qo'shrabod tumani. Diyora bazmgohi</span>
+                        <div class="clearfix"></div>
+                        <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=66.655725%2C40.240403&whatshere%5Bzoom%5D=17.73376&ll=66.65572545804807%2C40.2404027223886&z=17.73376"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                                         class="img-responsive"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
+                    <div class="wd_event_infobox imgg">
+                        <img src="{% static 'images/content/event_img.gif' %}" alt="Event Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <div class="wd_footer_wrapper wd_toppadder90 wd_bottompadder100 orr">
         <div class="container">
@@ -637,8 +620,9 @@ Purchase:
                         <div class="items__container">
                             <div class="items__body">
                                 <div class="item">
+                                    <h2 style="text-align: center; margin-bottom: 61px; font-size: 65px;">Love Story</h2>
                                     <div class="item__video">
-                                        <video preload="auto" poster="{% static 'images/content/sss11.jpg' %}" controls src="{% static 'videos/PRO.mp4' %}"></video>
+                                        <video preload="none" poster="{% static 'images/content/sss11.jpg' %}" controls src="{% static 'videos/PRO.mp4' %}"></video>
                                     </div>
                                 </div>
                             </div>
@@ -658,7 +642,7 @@ Purchase:
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
                         <h2>Manzil</h2>
-                        <p>Qo'shrabod tumani. Buloqboshi maxallasi</p>
+                        <p>Qo'shrabod tumani. Zarkent shaharchasi</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
