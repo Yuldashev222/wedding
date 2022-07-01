@@ -47,6 +47,31 @@ Purchase:
             background-repeat: no-repeat;
         }
 
+        .wd_about_infobox_date {
+            padding: 10px 0;
+        }
+        .wd_about_infobox_date p {
+            margin-bottom: 20px;
+        }
+        .menu_fixed .wd_logo {
+            padding-top: 25px;
+        }
+        .wd_event_wrapper {
+            background-image: none;
+            background-color: #df9a9b3b;
+        }
+        .wd_about_infobox h1 {
+            font-size: 80px;
+        }
+        .wd_about_infobox h2 {
+            font-size: 45px;
+        }
+        .wd_about_infobox p {
+            text-transform: unset;
+        }
+        #primary-nav-button.mobile {
+            display: none;
+        }
     </style>
 
     <style>
@@ -273,18 +298,16 @@ Purchase:
                             <nav id="primary-nav" class="dropdown cf">
                                 <ul class="dropdown menu">
                                     <li class='active'><a href="#">Home</a></li>
-                                    <li><a href="{% url 'love_story' %}">Love-Story</a></li>
-                                    <li><a href="{% url 'faq' %}">Faq</a></li>
-                                    <li><a href="{% url 'event' %}">Events</a></li>
-                                    <li><a href="{% url 'family' %}">Family</a></li>
-                                    <li><a href="{% url 'gallery' %}">Gallery</a></li>
-                                    <li><a href="#">Blog</a>
+                                    <li><a>Love-Story</a></li>
+                                    <li><a>Family</a></li>
+                                    <li><a>Gallery</a></li>
+                                    <li><a>Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{% url 'blog' %}">Blog-Categories</a></li>
-                                            <li><a href="{% url 'blog_single' %}">Blog-Single</a></li>
+                                            <li><a>Blog-Categories</a></li>
+                                            <li><a>Blog-Single</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                                    <li><a>Contact</a></li>
                                 </ul>
                             </nav><!-- / #primary-nav -->
                         </header>
@@ -295,7 +318,7 @@ Purchase:
         </div>
         <div class="wd_slider_textinfo">
             <img src="{% static 'images/header/name.png' %}" alt="Slider Image" class="img-responsive">
-            <h3 style="color: #fff !important;">07 Iyul 2022</h3>
+            <h3 style="color: #fff !important;">07.07.2022</h3>
             <div class="clearfix"></div>
             <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
         </div>
@@ -315,8 +338,8 @@ Purchase:
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                            <h4>Nikoh oxshomi</h4>
-                            <h1>Kelin va kuyov</h1>
+                            <h4>Nikoh oqshomi</h4>
+                            <h1>Kelin & kuyov</h1>
                             <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                         </div>
                     </div>
@@ -325,7 +348,8 @@ Purchase:
                             <div class="wd_about_infobox_img">
                                 <span><img src="{% static 'images/content/line.png' %}" alt="Line"
                                            class="img-responsive"></span>
-                                <img width="270px" height="270px" src="{% static 'images/content/img.png' %}" alt="Groom" class="img-responsive">
+                                <img width="270px" height="270px" src="{% static 'images/content/img.png' %}"
+                                     alt="Groom" class="img-responsive">
                             </div>
                             <p>(Sayfiddin aka & Gulchexra opa)</p>
                             <p>o'g'li</p>
@@ -348,10 +372,9 @@ Purchase:
                         <div class="wd_about_infobox">
                             <h1>Taklifnoma</h1>
                             <div class="wd_about_infobox_date">
-                                <p>Sizni va oilangizni taklif etamiz</p>
-                                <h3>Payshanba</h3>
+                                <p>Ассалому Алайкум!!! Ҳурматли Қадирдоним! Бизнинг бахтли кунимиз шохиди бўлишингиздан, мамнун эканлигимизни изхор этган ҳолда Сизни унутилмас кун, Никох тўйи муносабати билан Самарқанд вилояти, Қўшработ тумани, “Диёра” тўйхонаси ёзиладиган базм дастурхонимизга таклиф этамиз</p>
                                 <h2>07.07.2022</h2>
-                                <p>Qo'shrabot tumani. Diyora bazmgohi</p>
+                                <p>Ҳурмат ва эҳтиром ила: Тенглаш Эшмурзаев оиласи. </p>
                             </div>
                         </div>
                     </div>
@@ -384,81 +407,7 @@ Purchase:
         </div>
     </div>
     <!-- About Wrapper End -->
-    <!-- Guest Wrapper Start -->
-    <div class="wd_guest_wrapper wd_toppadder90">
-        <div class="wd_overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
-                        <h4>Rsvp</h4>
-                        <h1>Be our guest!</h1>
-                        <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wd_guest_infobox">
-                        <h2>You’re Invited <span>Jenny & Mark</span> Wedding</h2>
-                        <h4>Please Rsvp Before 15 May 2022</h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
-                            This is Photoshop's version of Lorem Ipsum.</p>
-                        <h2><span>Gift Registry</span></h2>
-                        <p>What we want most for our wedding is to have our friends and family there to celebrate the
-                            occasion with us. If you would like to get us something, w’d love that too. you can find our
-                            registries here :</p>
-                    </div>
 
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wd_guest_formbox">
-                        <span>Are You Attending?</span>
-                        <h4>Rsvp Here!</h4>
-                        <div class="wd_guest_form">
-                            <div class="row">
-                                <form>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <label>Full Name :</label>
-                                        <input type="text" name="full_name" placeholder="Full Name" class="require">
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <label>Email :</label>
-                                        <input type="text" name="email" placeholder="Email" class="require"
-                                               data-valid="email" data-error="Email should be valid.">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Guests :</label>
-                                        <select name="guest_no" class="require">
-                                            <option value="0">00</option>
-                                            <option value="1">01</option>
-                                            <option value="2">02</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <label>Event :</label>
-                                        <select name="event_name" class="require">
-                                            <option value="all">All Events</option>
-                                            <option value="party">Party Events</option>
-                                            <option value="marriage">Marriage Events</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="response"></div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="wd_btn">
-                                            <button type="button" class="submitForm" form-type="inquiry">Send a
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Event Wrapper Start -->
     <div class="wd_event_wrapper wd_toppadder90 wd_bottompadder50">
         <div class="container">
@@ -473,24 +422,25 @@ Purchase:
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="wd_event_infobox">
                         <h2>Nahor</h2>
-                        <h1>7:30 pm</h1>
+                        <h1>7:00</h1>
                         <span>Qo'shrabod tumani. Diyora bazmgohi</span>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
                             vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
                         <div class="clearfix"></div>
-                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                        <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=66.655725%2C40.240403&whatshere%5Bzoom%5D=17.73376&ll=66.65572545804807%2C40.2404027223886&z=17.73376"><img src="{% static 'images/content/map.png' %}" alt="Map"
                                          class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-4 col-md-push-4 col-sm-push-0">
                     <div class="wd_event_infobox">
                         <h2>Nikoh oqshomi</h2>
-                        <h1>18:00 pm</h1>
+                        <h1>18:00</h1>
                         <span>Qo'shrabod tumani. Diyora bazmgohi</span>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor
                             vel velit auctor aliquet. Aenean sollicitudin, lorem quis</p>
                         <div class="clearfix"></div>
-                        <a href="#"><img src="{% static 'images/content/map.png' %}" alt="Map" class="img-responsive"></a>
+                        <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=66.655725%2C40.240403&whatshere%5Bzoom%5D=17.73376&ll=66.65572545804807%2C40.2404027223886&z=17.73376"><img src="{% static 'images/content/map.png' %}" alt="Map"
+                                         class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4 col-sm-pull-0">
@@ -536,7 +486,7 @@ Purchase:
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wd_heading wow fadeInDown" data-wow-delay="0.3s">
                         <h4>Sanjar & Dinara</h4>
-                        <h1>Esda qolarli fotogalereya</h1>
+                        <h1>fotogalereya</h1>
                         <img src="{% static 'images/content/heading.png' %}" alt="Heading" class="img-responsive">
                     </div>
                 </div>
@@ -656,14 +606,15 @@ Purchase:
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_img">
-                            <img width="555px" height="320px" src="{% static 'images/content/image_small_22.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_22.jpg' %}"
+                                 alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_info">
                             <h3>Tanishuv</h3>
                             <ul>
-                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 Yanvar 2020</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
@@ -674,14 +625,15 @@ Purchase:
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 col-sm-push-6">
                         <div class="wd_blog_img">
-                            <img width="555px" height="320px" src="{% static 'images/content/image_small_33.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_33.jpg' %}"
+                                 alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-pull-6 col-md-pull-6 col-sm-pull-6">
                         <div class="wd_blog_info">
                             <h3>Birinchi uchrashuv</h3>
                             <ul>
-                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 Yanvar 2020</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
@@ -692,14 +644,15 @@ Purchase:
                 <div class="wd_blog_box">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_img">
-                            <img width="555px" height="320px" src="{% static 'images/content/image_small_44.jpg' %}" alt="Blog">
+                            <img width="555px" height="320px" src="{% static 'images/content/image_small_44.jpg' %}"
+                                 alt="Blog">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="wd_blog_info">
                             <h3>Sevgi tarixi</h3>
                             <ul>
-                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022</a></li>
+                                <li><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 20 Yanvar 2020</a></li>
                             </ul>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
@@ -730,7 +683,7 @@ Purchase:
                             <i class="fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <h2>Tel</h2>
-                        <p>+ 91 12345 67890 <br> +91 12345 78945</p>
+                        <p>+ 998 (93) 605 88 88</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -739,10 +692,7 @@ Purchase:
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </div>
                         <h2>Email</h2>
-                        <p><a href="/static/cdn-cgi/l/email-protection" class="__cf_email__"
-                              data-cfemail="a3d4c6c7c7cacdc4e3c6dbc2ced3cfc68dc0ccce">[email&#160;protected]</a> <br><a
-                                href="/static/cdn-cgi/l/email-protection" class="__cf_email__"
-                                data-cfemail="204556454e54604558414d504c450e434f4d">[email&#160;protected]</a></p>
+                        <p>zbesstudio@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -1014,7 +964,7 @@ Purchase:
 
 
             // CountDown Js
-            var deadline = 'July 7 2022 17:59:00 GMT-0400';
+            var deadline = 'July 7 2022 17:59:00 ';
 
             function time_remaining(endtime) {
                 var t = Date.parse(endtime) - Date.parse(new Date());
